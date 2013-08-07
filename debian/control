@@ -1,0 +1,13 @@
+Source: huayra-screensavers
+Section: x11
+Priority: extra
+Maintainer: Julia Palandri <julia.palandri@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: http://huayra.conectarigualdad.gob.ar
+
+Package: huayra-screensavers
+Architecture: all
+Replaces: huayra-mate-screensavers
+Depends: ${misc:Depends}, 
+Description: Paquete con salvapantallas pensados para Huayra.

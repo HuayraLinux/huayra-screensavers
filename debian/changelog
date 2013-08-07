@@ -1,0 +1,6 @@
+huayra-screensavers (0.1) testing; urgency=low
+
+  * Initial release. 
+  * Separando huayra-screensavers de huayra-desktop
+
+ -- Julia Palandri <julia.palandri@gmail.com>  Wed, 31 Jul 2013 12:54:06 -0300
