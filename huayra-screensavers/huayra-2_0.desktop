@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Huayra Vaca Voladora 2.0
+Name[es]=Huayra Vaca Voladora 2.0
+Comment=Bubbles the Huayra Cow 2.0 around the screen
+Comment[es]=Mueve la Vaca de Huayra 2.0 alrededor de la pantalla
+Exec=/usr/lib/mate-screensaver/floaters -n 5 /usr/share/huayra-screensavers/vaca_voladora_2_0.png
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=Screensaver;
