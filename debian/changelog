@@ -1,3 +1,9 @@
+huayra-screensavers (0.3) unstable; urgency=medium
+
+  * Screensaver Huayra 3.0
+
+ -- Ignacio Juan Martín Benedetti <tranceway@gmail.com>  Thu, 26 Feb 2015 16:55:36 -0300
+
 huayra-screensavers (0.2) unstable; urgency=low
 
   * Screensaver Huayra Vaca Voladora 2.0
@@ -6,7 +12,7 @@ huayra-screensavers (0.2) unstable; urgency=low
 
 huayra-screensavers (0.1) testing; urgency=low
 
-  * Initial release. 
+  * Initial release.
   * Separando huayra-screensavers de huayra-desktop
 
  -- Julia Palandri <julia.palandri@gmail.com>  Wed, 31 Jul 2013 12:54:06 -0300

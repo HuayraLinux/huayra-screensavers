@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Huayra 3.0
+Name[es]=Huayra 3.0
+Comment=Bubbles the Huayra 3.0 netbook around the screen
+Comment[es]=Mueve la netbook con Huayra 3.0 alrededor de la pantalla
+Exec=/usr/lib/mate-screensaver/floaters -n 5 /usr/share/huayra-screensavers/netbook_30.png
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=Screensaver;
