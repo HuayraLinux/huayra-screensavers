@@ -1,3 +1,9 @@
+huayra-screensavers (0.5) torbellino; urgency=medium
+
+  * Fix. Faltaba copiar la imagen de 3.1
+
+ -- Ivan Hoffmann <digital.h@gmail.com>  Fri, 18 Sep 2015 17:02:41 -0300
+
 huayra-screensavers (0.4) torbellino; urgency=medium
 
   * Subiendo versión 3.1 del screensaver.
