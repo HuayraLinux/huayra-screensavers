@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Huayra 3.2
+Name[es]=Huayra 3.2
+Comment=Bubbles the Huayra 3.2 netbook around the screen
+Comment[es]=Mueve la netbook con Huayra 3.2 alrededor de la pantalla
+Exec=/usr/lib/mate-screensaver/floaters -n 8 /usr/share/huayra-screensavers/huayra_32.png
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=Screensaver;
