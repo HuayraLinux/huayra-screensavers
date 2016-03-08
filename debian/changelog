@@ -1,3 +1,9 @@
+huayra-screensavers (0.7) torbellino; urgency=medium
+
+  * Creando hayra-default.desktop como enlace al último
+
+ -- Iván Hoffmann <digital.h@gmail.com.ar>  Tue, 08 Mar 2016 12:01:35 -0300
+
 huayra-screensavers (0.6) torbellino; urgency=medium
 
   * Screensaver para Huayra 3.2
