@@ -6,7 +6,7 @@ huayra-screensavers/huayra-3_1/huayra-3_1.desktop /usr/share/applications/screen
 huayra-screensavers/huayra-3_2/huayra-default.desktop /usr/share/applications/screensavers/
 huayra-screensavers/huayra-3_1/huayra_31.png /usr/share/huayra-screensavers/huayra-3_1/
 huayra-screensavers/huayra-3_2/huayra_32.png /usr/share/huayra-screensavers/huayra-3_2/
-huayra-screensavers/huayra-invaders/huayra-invaders.desktop /usr/share/huayra-screensavers/
+huayra-screensavers/huayra-invaders/huayra-invaders.desktop /usr/share/applications/screensavers/
 huayra-screensavers/huayra-invaders/huayra-invaders.py /usr/share/huayra-screensavers/huayra-invaders/
 huayra-screensavers/huayra-invaders/sprites/alien_00.png /usr/share/huayra-screensavers/huayra-invaders/sprites/
 huayra-screensavers/huayra-invaders/sprites/alien_01.png /usr/share/huayra-screensavers/huayra-invaders/sprites/
