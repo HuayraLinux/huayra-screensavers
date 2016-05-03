@@ -11,7 +11,7 @@ class Alien(object):
 		self.x, self.y = 0 , 0 # Inicia coordenadas 
 		self.ani_speed_init=15
 		self.ani_speed = self.ani_speed_init
-		self.ani = glob.glob("/usr/lib/huayra-screensavers/huayra-invaders/sprites/alien_*.png")
+		self.ani = glob.glob("/usr/share/huayra-screensavers/huayra-invaders/sprites/alien_*.png")
 		self.ani.sort()
 		self.cur_frame = 0
 		self.last_frame = len(self.ani) - 1
@@ -24,7 +24,7 @@ class Alien(object):
 		global aliens_totales
 		self.vida = 0
 
-		self.ani = glob.glob("/usr/lib/huayra-screensavers/huayra-invaders/sprites/bum*.png")
+		self.ani = glob.glob("/usr/share/huayra-screensavers/huayra-invaders/sprites/bum*.png")
 		self.ani.sort()
 		self.cur_frame = 0
 		self.last_frame = len(self.ani) - 1
@@ -53,7 +53,7 @@ class vaca(object):
 		self.x, self.y = 0, 0
 		self.ani_speed_init=30
 		self.ani_speed = self.ani_speed_init
-		self.ani = glob.glob("/usr/lib/huayra-screensavers/huayra-invaders/sprites/vaca_*.png")
+		self.ani = glob.glob("/usr/share/huayra-screensavers/huayra-invaders/sprites/vaca_*.png")
 		self.ani.sort()
 		self.cur_frame = 0
 		self.last_frame = len(self.ani) - 1

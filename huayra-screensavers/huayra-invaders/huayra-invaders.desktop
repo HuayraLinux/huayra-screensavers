@@ -1,9 +1,9 @@
 [Desktop Entry]
-Name=Huayra Aliens
+Name=Huayra Invaders
 Name[es]=Huayra Invaders
-Comment=Screensaver hecho en Pygame que muestra muchos aliens y una vaca colada.
+Comment=Screensaver written in Pygame that shows a bunch of aliens and an undercover cow.
 Comment[es]=Screensaver hecho en Pygame que muestra muchos aliens y una vaca colada.
-Exec=/usr/lib/huayra-screensavers/huayra-invaders.py
+Exec=huayra-invaders.py
 StartupNotify=false
 Terminal=false
 Type=Application
