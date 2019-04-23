@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Voladora Reloaded
+Name[es]=Voladora Reloaded
+Comment=Screensaver written in Pygame that shows a flying cow.
+Comment[es]=Screensaver hecho en Pygame que muestra una vaca volando.
+Exec=voladora_reloaded.py
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=Screensaver;

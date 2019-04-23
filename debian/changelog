@@ -1,3 +1,13 @@
+huayra-screensavers (0.9) unstable; urgency=medium
+
+  * Modificando path de Exec en archivos .desktop.
+  * Fix en huayra-invaders para que funcione correctamente
+  * Preparando elementos de Voladora Reloaded para que funcione instalado.
+  * Agregada linea en links para enlazar script voladora_reloaded.py
+
+
+ -- Claudio Andaur <malefico3d@gmail.com>  Tue, 12 Mar 2019 12:22:59 -0300
+
 huayra-screensavers (0.8) torbellino; urgency=medium
 
   * Modificando huayra-default.desktop para que no sea un enlace

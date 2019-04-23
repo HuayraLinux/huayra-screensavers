@@ -1,15 +1,15 @@
 Source: huayra-screensavers
 Section: x11
 Priority: extra
-Maintainer:  Iván Hoffmann <digital.h@gmail.com>
-Build-Depends: debhelper (>= 8.0.0)
-Standards-Version: 3.9.3
+Maintainer:  Claudio Andaur <malefico3d@gmail.com>
+Build-Depends: debhelper (>= 9.0.0)
+Standards-Version: 3.9.8
 Homepage: http://huayra.conectarigualdad.gob.ar
 Vcs-Git: http://github.com/huayralinux/huayra-screensavers
 
 Package: huayra-screensavers
 Architecture: all
 Replaces: huayra-mate-screensavers
-Depends: ${misc:Depends}, 
-Description: Salvapantallas temáticos de Huayra.
-  Incluye salvapantallas con imágenes del logo de Huayra y la vaca.
+Depends: ${misc:Depends}, python (>=2.7), python-pygame
+Description: Salvapantallas de Huayra.
+ Incluye salvapantallas con imágenes y animaciones del logo y la vaca de Huayra.

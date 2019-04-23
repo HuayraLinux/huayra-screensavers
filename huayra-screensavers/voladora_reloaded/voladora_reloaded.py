@@ -18,12 +18,12 @@ class Nube(object):
 	def __init__(self):
 		self.escala = random.uniform(0.8, 2.0)
 		self.x, self.y = random.randint(0 , w), random.randint(0, h) # Inicia coordenadas aleatorias entre el 0 y el ancho de pantalla, y entre 0 y el alto de la pantalla
-		self.img = pygame.image.load("sprites/nube.png")
+		self.img = pygame.image.load("/usr/share/huayra-screensavers/voladora_reloaded/sprites/nube.png")
 		self.w, self.h = self.img.get_size()
 		self.retardo = 10
 		self.retardo_inicial = 10
 		self.img = pygame.transform.scale(self.img, (int(self.w * self.escala), int(self.h * self.escala)))
-		print("Datos de Nube:", self.w, self.h, self.x, self.y)
+		#print("Datos de Nube:", self.w, self.h, self.x, self.y)
 		self.surf = pygame.Surface(self.img.get_size(), depth=24)
 
 		self.key = CELESTE
@@ -58,8 +58,8 @@ class VacaVoladora(object):
 		self.retardo = 15
 		self.ani_speed_init=10
 		self.ani_speed = self.ani_speed_init
-#		self.ani = glob.glob("/usr/share/huayra-screensavers/voladora-reloaded/sprites/vaca-volando*.png")
-		self.ani = glob.glob("sprites/vaca-volando*.png")
+		self.ani = glob.glob("/usr/share/huayra-screensavers/voladora_reloaded/sprites/vaca-volando*.png")
+#		self.ani = glob.glob("sprites/vaca-volando*.png")
 		self.ani.sort()
 		self.cur_frame = 0
 		self.last_frame = len(self.ani) - 1
@@ -186,8 +186,8 @@ class VacaVoladora(object):
 
 
 if __name__ == '__main__':
-#	ident = os.environ.get('XSCREENSAVER_WINDOW')
-#	os.environ['SDL_WINDOWID'] = str(ident) # Asigna la ventana del screensaver a la salida de SDL
+	ident = os.environ.get('XSCREENSAVER_WINDOW')
+	os.environ['SDL_WINDOWID'] = str(ident) # Asigna la ventana del screensaver a la salida de SDL
 	
 	pygame.init()
 
@@ -203,12 +203,12 @@ if __name__ == '__main__':
 		monitores.append(mg)
 
 	monitor_actual = screen.get_monitor_at_window(screen.get_active_window())
-#	x, y, w, h = monitores[monitor_actual]
-	w = 1024 # Para test
-	h = 768	 # Para test
+	x, y, w, h = monitores[monitor_actual]
+#	w = 1024 # Para test
+#	h = 768	 # Para test
 
-#	pantalla = pygame.display.set_mode((w, h), FULLSCREEN, 32)  #Usar para screensaver
-	pantalla = pygame.display.set_mode((1024, 768)) # para tests
+	pantalla = pygame.display.set_mode((w, h), FULLSCREEN, 32)  #Usar para screensaver
+#	pantalla = pygame.display.set_mode((1024, 768)) # para tests
 	max_X = w
 	min_X = 0
 
