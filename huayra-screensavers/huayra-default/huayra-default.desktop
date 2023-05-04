@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Simple Huayra
+Name[es]=Huayra Simple
+Comment=Bubbles the Huayra icon around the screen
+Comment[es]=Mueve el icono de Huayra alrededor de la pantalla
+Exec=/usr/lib/mate-screensaver/mate-screensaver/floaters -n 8 -r /usr/share/huayra-screensavers/huayra-default/huayra-default.svg
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=Screensaver;
