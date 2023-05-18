@@ -246,7 +246,7 @@ if __name__ == '__main__':
 				for vaca in vacas_ordenadas:
 					vaca.update(avance)	# Dibuja las vacas en la pantalla ordenadas por z-index. Las que tienen
 			if event.type == USEREVENT+2:
-				if len(vacas) < 6:
+				if len(vacas) < 3:
 					vacas.append(VacaVoladora())
 			if event.type == USEREVENT+3:
 				vacas[random.randint(0, len(vacas)-1)].estado = estados[random.randint(0,2)]
