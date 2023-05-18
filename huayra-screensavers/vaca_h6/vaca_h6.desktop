@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Vaca Voladora Huayra 6
+Name[es]=Vaca Voladora Huayra 6
+Comment=Screensaver written in Pygame that shows a flying cow.
+Comment[es]=Screensaver hecho en Pygame que muestra una vaca volando.
+Exec=vaca_h6.py
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=Screensaver;
+Hidden=true
