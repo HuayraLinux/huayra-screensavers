@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 
 import gi
@@ -200,24 +200,21 @@ if __name__ == '__main__':
 
 	# Cuando hay multiples monitores presentes, elegimos la resolucion del que tenia la ventana activa
 
-	display = gdk.Display.get_default()
+	ventana = gtk.Window()
+	screen = ventana.get_screen()
 	monitores = []
-	geometrias = []
-	nmons = display.get_n_monitors()
+	nmons = screen.get_n_monitors()
 	for m in range(nmons):
-		monitor = display.get_monitor(m)
-		geo = monitor.get_geometry()
-		
-		#print "monitor %d: %d x %d" % (m,geo.width, geo.height)
-		monitores.append(monitor)
-		geometrias.append(geo)
+		mg = screen.get_monitor_geometry(m)
+		#print "monitor %d: %d x %d" % (m,mg.width,mg.height)
+		monitores.append(mg)
 
-	#monitor_actual = (screen.get_active_window())
-	x, y, w, h = geometrias[0].x, geometrias[0].y, geometrias[0].width, geometrias[0].height
+	monitor_actual = screen.get_monitor_at_window(screen.get_active_window())
+	x, y, w, h = monitores[monitor_actual]
 #	w = 1024 # Para test
 #	h = 768	 # Para test
 
-	pantalla = pygame.display.set_mode((geometrias[0].width, geometrias[0].height), FULLSCREEN, 32)  #Usar para screensaver
+	pantalla = pygame.display.set_mode((w, h), FULLSCREEN, 32)  #Usar para screensaver
 #	pantalla = pygame.display.set_mode((1024, 768)) # para tests
 	max_X = w
 	min_X = 0
