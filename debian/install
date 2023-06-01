@@ -14,3 +14,6 @@ huayra-screensavers/huayra-invaders/sprites/*.png /usr/share/huayra-screensavers
 huayra-screensavers/voladora_reloaded/voladora_reloaded.desktop /usr/share/applications/screensavers/
 huayra-screensavers/voladora_reloaded/voladora_reloaded.py /usr/share/huayra-screensavers/voladora_reloaded/
 huayra-screensavers/voladora_reloaded/sprites/* /usr/share/huayra-screensavers/voladora_reloaded/sprites/
+huayra-screensavers/vaca_h6/vaca_h6.desktop /usr/share/applications/screensavers/
+huayra-screensavers/vaca_h6/vaca_h6.py /usr/share/huayra-screensavers/vaca_h6/
+huayra-screensavers/vaca_h6/sprites/* /usr/share/huayra-screensavers/vaca_h6/sprites/
